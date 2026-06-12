@@ -1,0 +1,163 @@
+import { Account, TrendingItem, MonthlyReport, DailyStatistic } from "./db";
+
+export const SAMPLE_ACCOUNTS: Account[] = [
+  {
+    username: "@user1",
+    accountAge: "2 years",
+    followers: 5420,
+    posts: 342,
+    classification: "genuine",
+    suspicionScore: 12,
+    behaviorScore: 8,
+    contentScore: 15,
+    networkScore: 10,
+    trendScore: 5,
+    reasons: ["Consistent posting patterns", "Real follower growth", "Authentic engagement"],
+  },
+  {
+    username: "@user4",
+    accountAge: "3 months",
+    followers: 85000,
+    posts: 2500,
+    classification: "fake",
+    suspicionScore: 92,
+    behaviorScore: 95,
+    contentScore: 88,
+    networkScore: 99,
+    trendScore: 85,
+    reasons: ["Sudden follower spike", "Repetitive content patterns", "Bot-like behavior"],
+  },
+  {
+    username: "@user7",
+    accountAge: "6 months",
+    followers: 25000,
+    posts: 450,
+    classification: "suspicious",
+    suspicionScore: 58,
+    behaviorScore: 65,
+    contentScore: 55,
+    networkScore: 62,
+    trendScore: 48,
+    reasons: ["Rapid growth detected", "Mixed genuine and suspicious patterns"],
+  },
+];
+
+export const SAMPLE_TRENDING: TrendingItem[] = [
+  {
+    hashtag: "#SpotifyWrapped2025",
+    mentions: 245800,
+    change: 28.5,
+    status: "rising",
+    riskLevel: "low",
+    posts: 125400,
+  },
+  {
+    hashtag: "#TechConference",
+    mentions: 156300,
+    change: 12.3,
+    status: "rising",
+    riskLevel: "low",
+    posts: 89200,
+  },
+  {
+    hashtag: "#CryptoGain1000x",
+    mentions: 98500,
+    change: 45.2,
+    status: "rising",
+    riskLevel: "high",
+    posts: 62100,
+  },
+  {
+    hashtag: "#MakeMoneyFast",
+    mentions: 45200,
+    change: 89.5,
+    status: "rising",
+    riskLevel: "high",
+    posts: 31200,
+  },
+  {
+    hashtag: "#ViralChallenge",
+    mentions: 234500,
+    change: 67.8,
+    status: "rising",
+    riskLevel: "medium",
+    posts: 198700,
+  },
+  {
+    hashtag: "#FakeGiveaway",
+    mentions: 32400,
+    change: 156.3,
+    status: "rising",
+    riskLevel: "high",
+    posts: 18900,
+  },
+];
+
+export const SAMPLE_MONTHLY_REPORTS: MonthlyReport[] = [
+  {
+    month: "March 2025",
+    analyzed: 12540,
+    fake: 2145,
+    suspicious: 892,
+    actions: 389,
+  },
+  {
+    month: "February 2025",
+    analyzed: 10230,
+    fake: 1845,
+    suspicious: 725,
+    actions: 321,
+  },
+  {
+    month: "January 2025",
+    analyzed: 14500,
+    fake: 2890,
+    suspicious: 943,
+    actions: 456,
+  },
+];
+
+export const SAMPLE_DAILY_STATS: DailyStatistic[] = [
+  {
+    date: "March 25, 2025",
+    analyzed: 578,
+    fake: 105,
+    suspicious: 48,
+    reports: 41,
+  },
+  {
+    date: "March 24, 2025",
+    analyzed: 612,
+    fake: 98,
+    suspicious: 52,
+    reports: 38,
+  },
+  {
+    date: "March 23, 2025",
+    analyzed: 523,
+    fake: 87,
+    suspicious: 41,
+    reports: 35,
+  },
+  {
+    date: "March 22, 2025",
+    analyzed: 645,
+    fake: 112,
+    suspicious: 55,
+    reports: 46,
+  },
+  {
+    date: "March 21, 2025",
+    analyzed: 589,
+    fake: 102,
+    suspicious: 49,
+    reports: 42,
+  },
+  {
+    date: "March 20, 2025",
+    analyzed: 534,
+    fake: 92,
+    suspicious: 45,
+    reports: 38,
+  },
+];
