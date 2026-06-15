@@ -6,7 +6,7 @@ A modern, client-side fraud detection interface built to identify suspicious soc
 
 ## 🚀 Live Demo
 
-🌐 Explore the fake account detector : https://https://fakeaccount-detector.netlify.app//
+🌐 Explore the fake account detector : https://fakeaccount-detector.netlify.app//
 
 ---
 
